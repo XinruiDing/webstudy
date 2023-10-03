@@ -1,0 +1,79 @@
+html {
+  background-image: url('/image/celeste_background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+main {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px 20px 20px 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+h1 {
+    margin: 0 auto;
+    padding: 20px 0;
+    font-size: 60px;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    color: skyblue;
+    text-shadow: 3px 3px 10px black;
+}
+
+h2 {
+    line-height: 2;
+    letter-spacing: 1px;
+    color: #1e90ff;
+    text-shadow: 1px 0.5px 1px #00008b;
+}
+
+aside {
+  text-align: center;
+  font-family: 'Pixelify Sans', cursive;
+  font-size: 20px;
+}
+
+p {
+  padding: 20px 20px 20px 20px;
+  font-size: 20px;
+  font-family: 'AR One Sans', sans-serif;
+}
+
+.pixel-style {
+  font-family: 'Pixelify Sans', cursive;
+  display: inline-block;
+  width: 30%;
+  padding: 10px 20px;
+  text-align: center;
+  background-color: #ffb6c1;
+  color: #f0ffff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(240,128,128, 0.5);
+  cursor: pointer;
+}
+
+.pixel-style:hover {
+  background-color: #f08080;
+}
+
+#p1 {
+  text-shadow: 3px 3px 18px #1e90ff;
+}
+
+#p2 {
+  text-align: center;
+  font-style: italic;
+  font-size: 10px;
+}
+
+a[href="#top"] {
+  display: block;
+  text-align: center;
+  font-size: 15px;
+  margin: 10px auto;
+}
