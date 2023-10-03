@@ -1,5 +1,5 @@
 html {
-  background-image: url('/image/celeste_background.png');
+  background-image: url('../image/celeste_background.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
